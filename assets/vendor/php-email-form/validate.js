@@ -16,7 +16,7 @@ form.addEventListener("submit", async (e) => {
   thisForm.querySelector('.sent-message').classList.remove('d-block');
 
   try {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbw6yRT8h8JxwfqwcUzNurK24XB2_g8j1x-WXLJxef-xF6U_o6beo5c-5jFKPO43Oy4fvw/exec", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbzJNMNWo4rTCFxq2Q5Usvemw_96J7fxleVihjvIG445-lxioZ69v75Kl0uCAe_t7mSI/exec", {
       method: "POST",
       body: JSON.stringify(formData),
     });
@@ -124,3 +124,9 @@ form.addEventListener("submit", async (e) => {
 //   }
 
 // })();
+
+
+
+// '''
+// https://script.google.com/macros/s/AKfycbw6yRT8h8JxwfqwcUzNurK24XB2_g8j1x-WXLJxef-xF6U_o6beo5c-5jFKPO43Oy4fvw/exec
+// '''
