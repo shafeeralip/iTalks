@@ -829,6 +829,17 @@
         object-fit: cover; /* Crop image to fit dimensions */
         width: 100%;
     }
+    @media (max-width: 768px) {
+    .carousel-image {
+        height: 40vh; /* Reduce height further for smaller devices */
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-image {
+        height: 30vh; /* Further reduce height for very small devices */
+    }
+}
   .whatsapp-link {
     position: fixed; /* Stays fixed when scrolling */
     right: 20px; /* Distance from the right edge */
